@@ -10,7 +10,7 @@ REGEX are character patterns that allow you to filter data matching the pattern.
 
 ## 2. Language
 
-### Predefined classes
+### Predefined classes: . \d \w \s
 
 - **.**: find all character inside file.
 - **Digit**:
@@ -27,6 +27,16 @@ REGEX are character patterns that allow you to filter data matching the pattern.
 - **Spaces**: normal space, tab, double space, etc
   - **\s**: find all spaces
 
-**challenge: find a system to get all hexadecimals** => [#][a-fa-f0-9]{3,6}
+**challenge: find a system to get all hexadecimals**
+=> [#][a-fa-f0-9]{3,6}
+=> [#][a-fa-f0-9]
 
-### Delimiters
+### Delimiters: + \* ?
+
+- **\***: greedy (get all)
+- **+**: one or more
+- **?**: zero or one
+
+### Counters {Nmin,Nmax}
+
+-
