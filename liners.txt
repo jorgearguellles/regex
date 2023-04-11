@@ -12,9 +12,11 @@ url: http://itam.mx/test
 http://instagram.com/p/blablablah
 csv1,csv2,csv3,csv4,csv5
 Rodrigo Jimenez Gutierrez
-5556581111
-56-58-11-12
-302-345-9876
+555658
+56-58-11
+30.23.45
+98 76 45
+89y67e78
 esto.es.un.mail+gmail@mail.com
 domain.com
 [LOG ENTRY] [ERROR] The system is unstable

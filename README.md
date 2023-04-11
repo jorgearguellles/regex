@@ -39,4 +39,6 @@ REGEX are character patterns that allow you to filter data matching the pattern.
 
 ### Counters {Nmin,Nmax}
 
--
+### Not (ˆ) Inverse/Reverse
+
+Challenge: ([0-9]{2,2}[\W]?){3}
