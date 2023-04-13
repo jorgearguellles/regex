@@ -42,3 +42,16 @@ REGEX are character patterns that allow you to filter data matching the pattern.
 ### Not (ˆ) Inverse/Reverse
 
 Challenge: ([0-9]{2,2}[\W]?){3}
+
+When we want to match all entire line text we use **ˆ** and **$**
+
+- Start line is marked with: **ˆ**
+- End line is marked with: **$**
+
+Example: `^\d{3,6}$`
+
+## 3. Practical cases
+
+### Logs
+
+- https://generatedata.com/generator
